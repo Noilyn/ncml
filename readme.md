@@ -57,8 +57,8 @@ X_tr, y_tr, X_te, y_te = load_data('news20.binary')
 
 # Set classifier options
 bbmpgdca = BBMPG_DCAClassifier(loss='logistic',
-							   penalty='mcp',
-							   scale_choice='diagonal_bb',
+                               penalty='mcp',
+                               scale_choice='diagonal_bb',
                                linesearch_choice='nonmonotonic',
                                momentum_flag=False,
                                tol=bbmpgdca_tol)
