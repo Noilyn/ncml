@@ -24,5 +24,7 @@ NCML is a numerical package for solving large-scale non-convex optimization aris
 
 In NCML, we mainly consider a family of non-convex possibly non-smooth optimization problems in the following form:
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=min_{x\in&space;\chi}&space;F(x):=g(x)&plus;f(x)-h(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?min_{x\in&space;\chi}&space;F(x):=g(x)&plus;f(x)-h(x)" title="min_{x\in \chi} F(x):=g(x)+f(x)-h(x)" /></a>
+
 $$min_{x\in \chi} F(x):=g(x)+f(x)-h(x)$$
 
